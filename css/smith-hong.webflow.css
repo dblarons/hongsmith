@@ -1,0 +1,286 @@
+.body {
+  padding-bottom: 50px;
+  background-color: #040066;
+  font-family: 'Comic Sans MS';
+}
+
+.pagecontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.buttonscontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 140px;
+  height: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #dbdfe8;
+  background-color: #bebebe;
+  box-shadow: inset 2px 2px 0 0 #000;
+  font-family: 'Comic Neue', sans-serif;
+  color: #2035e4;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-decoration: underline;
+}
+
+.announcementcontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.announcementtext {
+  max-width: 268px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 67px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: -3px -3px 0 #ff00af;
+}
+
+.announcementtext.lefttext {
+  margin-right: 40px;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 70px;
+  text-align: right;
+}
+
+.announcementtext.righttext {
+  margin-left: 40px;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 70px;
+}
+
+.locationscontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.locationcontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.locationtitle {
+  width: 170px;
+  margin-bottom: 20px;
+  background-color: #42b3ff;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #000;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.locationtitle.green {
+  background-color: #33cc02;
+}
+
+.addresstext {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 349px;
+  height: 88px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #e3ff00;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.76px;
+}
+
+.addresstextsecondaryoutline {
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.bold-text {
+  margin-left: 3px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .announcementtext.lefttext {
+    max-width: 180px;
+    margin-right: 25px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .announcementtext.righttext {
+    max-width: 180px;
+    margin-left: 25px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .image {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buttonscontainer {
+    margin-bottom: 30px;
+  }
+  .button {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .announcementcontainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .announcementtext.lefttext {
+    max-width: 220px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    font-size: 55px;
+    text-align: center;
+  }
+  .announcementtext.righttext {
+    max-width: 220px;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 55px;
+    text-align: center;
+  }
+  .addresstext {
+    width: 300px;
+  }
+  .image {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .buttonscontainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .button {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: inset 3px 3px 0 0 #000;
+    font-size: 18px;
+  }
+  .announcementtext.lefttext {
+    max-width: 270px;
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .announcementtext.righttext {
+    max-width: 270px;
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .addresstext {
+    width: 90vw;
+  }
+  .bold-text {
+    font-size: 18px;
+  }
+  .image {
+    width: 90vw;
+  }
+}
+
